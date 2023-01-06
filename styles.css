@@ -1,10 +1,10 @@
 :root {
- --main-background-color: #FC766AFF;
+ --main-background-color: #424c80;
  --nav-background-color: #5B84B1FF;
 }
 
 * {
-    border: 1px solid black;
+    border: /1px solid black;
     box-sizing: border-box;
 }
 
@@ -13,6 +13,7 @@ html {
     height: 100%;
     background-color: var(--main-background-color);
     display: block;
+    z-index: 0;
 }
 
 nav {
@@ -27,14 +28,40 @@ nav {
     justify-content: center;
 }
 
-div {
-    width: 500px;
-    height: 1000px;
-}
-
 .nav-links{
     margin: auto;
     font-size: 75px;
     font-family: Tahoma;
     font-weight: bold;
+}
+
+.navigation-icons-bar {
+    display: flex;
+    left: 9.5%;
+    position: fixed;
+    margin-top: 140px;
+    width: 81%;
+    height: 50px;
+    z-index: 1;
+    
+}
+
+#welcome-icon {
+    position: relative;
+    left: 12.15%;
+}
+
+#inventory-icon {
+    position: relative;
+    left: 47.15%;
+}
+
+#details-icon {
+    position: relative;
+    left: 79.25%;
+}
+
+div {
+    width: 500px;
+    height: 1000px;
 }
