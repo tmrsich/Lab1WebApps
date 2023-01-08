@@ -47,19 +47,8 @@ nav {
     
 }
 
-#welcome-icon {
+.nav-icons {
     position: relative;
-    left: 12.15%;
-}
-
-#inventory-icon {
-    position: relative;
-    left: 47.15%;
-}
-
-#details-icon {
-    position: relative;
-    left: 79.25%;
 }
 
 div {
