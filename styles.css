@@ -4,8 +4,9 @@
 }
 
 * {
-    border: /1px solid black;
+    border: 1px solid black; /*Just to see the positioning of elements, will be removed*/
     box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 html {
