@@ -1,10 +1,11 @@
 :root {
  --main-background-color: #424c80;
  --nav-background-color: #5B84B1FF;
+ --nav-link-color: #ffd284;
 }
 
 * {
-    border: 1px solid black; /*Just to see the positioning of elements, will be removed*/
+     /*Just to see the positioning of elements, will be removed*/
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
 }
@@ -51,8 +52,13 @@ nav {
     position: relative;
 }
 
+a:hover {
+    color: var(--nav-link-color);
+    text-decoration: underline;
+}
+
 #inventory-table {
-    margin: 25rem auto;
+    margin: 10rem auto;
     width: 80%;
     height: 50%;
     border: 2px solid black;
