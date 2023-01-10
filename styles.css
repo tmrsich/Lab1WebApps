@@ -51,7 +51,9 @@ nav {
     position: relative;
 }
 
-div {
+#inventory-table {
+    margin-top: 15rem;
     width: 500px;
-    height: 1000px;
+    height: 20%;
+    border: 5px solid black;
 }
