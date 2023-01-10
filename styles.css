@@ -55,6 +55,9 @@ nav {
     margin: 25rem auto;
     width: 80%;
     height: 50%;
-    
-    border: 5px solid black;
+    border: 2px solid black;
+}
+
+th, td {
+    padding-left: 10px;
 }
