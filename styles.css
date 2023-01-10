@@ -2,10 +2,11 @@
  --main-background-color: #424c80;
  --nav-background-color: #5B84B1FF;
  --nav-link-color: #ffd284;
+ --table-white-color: #eeeeee;
 }
 
 * {
-     /*Just to see the positioning of elements, will be removed*/
+    /*Just to see the positioning of elements, will be removed*/
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
 }
@@ -61,9 +62,11 @@ a:hover {
     margin: 10rem auto;
     width: 80%;
     height: 50%;
-    border: 2px solid black;
+    border: 5px solid var(--table-white-color);
 }
 
 th, td {
-    padding-left: 10px;
+    text-align: center;
+    color: var(--table-white-color);
+    border-bottom: 1px solid var(--table-white-color);
 }
