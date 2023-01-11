@@ -78,7 +78,7 @@ th, td {
         left: 12.5%;
         top: 0;
         position: fixed;
-        height: 50px;
+        height: 75px;
         width: 75% !important;
         background-color: var(--nav-background-color);
         border-radius: 10px;
@@ -94,23 +94,23 @@ th, td {
 
     .navigation-icons-bar {
         left: 15%;
-        margin-top: 35px;
+        margin-top: 50px;
         width: 70%;
-        height: 13px;
+        height: 20px;
         z-index: 1;
         
     }
 
     #homepage-icon {
-        left: 8.5% !important;
+        left: 7.5% !important;
     }
 
     #inventory-icon {
-        left: 40% !important;
+        left: 36% !important;
     }
 
     #details-icon {
-        left: 76% !important;
+        left: 69% !important;
     }
 
     a:active {
