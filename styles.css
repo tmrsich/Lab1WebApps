@@ -113,6 +113,10 @@ th, td {
         left: 69% !important;
     }
 
+    a:hover {
+        text-decoration: none;
+    }
+    
     a:active {
         color: var(--nav-link-color);
         text-decoration: none;
