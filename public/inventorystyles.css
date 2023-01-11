@@ -12,69 +12,15 @@ th, td {
     border-bottom: 1px solid var(--table-white-color);
 }
 
-#delete-button {
+.button-delete-primary {
+    display: block;
+    width: 25% !important;
     position: relative;
-    left: 75%;
-
+    left: 73%;
 }
 
-@media (max-width: 412px) {
-    nav {
-        display: flex;
-        left: 12.5%;
-        top: 0;
-        position: fixed;
-        height: 75px;
-        width: 75% !important;
-        background-color: var(--nav-background-color);
-        border-radius: 10px;
-        justify-content: center;
-    }
+#delete-button-primary {
+    display: block;
+    border: 1px solid black;
 
-    .nav-links {
-        margin: auto;
-        font-size: 20px;
-        font-family: Tahoma;
-        font-weight: bold;
-    }
-
-    .navigation-icons-bar {
-        left: 15%;
-        margin-top: 50px;
-        width: 70%;
-        height: 20px;
-        z-index: 1;
-        
-    }
-
-    #homepage-icon {
-        left: 7.5% !important;
-    }
-
-    #inventory-icon {
-        left: 36% !important;
-    }
-
-    #details-icon {
-        left: 69% !important;
-    }
-
-    a:active {
-        color: var(--nav-link-color);
-        text-decoration: none;
-    }
-
-    #inventory-table {
-        margin: 10rem 0 0 10rem;
-        left: 20%; 
-        width: 60%;
-        height: 50%;
-        border: 5px solid var(--table-white-color);
-    }
-    
-    th, td {
-        text-align: center;
-        color: var(--table-white-color);
-        border-bottom: 1px solid var(--table-white-color);
-    }
 }
