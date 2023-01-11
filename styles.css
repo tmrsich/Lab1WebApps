@@ -72,7 +72,7 @@ th, td {
     border-bottom: 1px solid var(--table-white-color);
 }
 
-@media (max-width: 412) {
+@media (max-width: 412px) {
     nav {
         display: flex;
         left: 12.5%;
