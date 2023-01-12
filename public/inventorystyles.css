@@ -1,3 +1,19 @@
+#inventory-form {
+    border: 2.5px solid var(--table-white-color);
+    position: relative;
+    width: 60%;
+    margin: 10% auto;
+    color: var(--table-white-color);
+}
+
+.input-field {
+    color: var(--table-white-color);
+}
+
+#full-inventory-table {
+    margin: -7.5% auto;
+}
+
 #inventory-table {
     margin: 10rem auto;
     left: 20%; 

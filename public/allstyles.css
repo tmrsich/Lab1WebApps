@@ -108,17 +108,11 @@
         text-decoration: none;
     }
 
-    #inventory-table {
-        margin: 10rem 0 0 10rem;
-        left: 20%; 
-        width: 60%;
-        height: 50%;
-        border: 5px solid var(--table-white-color);
-    }
-    
-    th, td {
-        text-align: center;
-        color: var(--table-white-color);
-        border-bottom: 1px solid var(--table-white-color);
+    form {
+        border: 1px solid black;
+
+
+
+
     }
 }
