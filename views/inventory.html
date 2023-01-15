@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="../public/allstyles.css">
-    <link rel="stylesheet" href="../public/inventorystyles.css">
+    <link rel="stylesheet" href="../public/inventorystyles/inventoryformstyles.css">
+    <link rel="stylesheet" href="../public/inventorystyles/inventorytablestyles.css">
 </head>
 
     <!--A fixed navigation bar with icons and links-->
@@ -23,24 +24,15 @@
 
     <!--Inventory form to add a new item-->
     <div id="inventory-form">
-        <form>
+        <form class="z-depth-1">
             <div class="row">
-                <div class="input-field col s1">
-                    <input id="class-name" type="text" class="validate">
-                    <label for="class-name">Class</label>
-                </div>
-                <div class="input-field col s1">
-                    <input id="assignment" type="text" class="validate">
-                    <label for="email">Email</label>
-                </div>
-                <div class="input-field col s3">
-                    <input id="due-date" type="date" class="datepicker" placeholder="MM-DD-YYYY">
-                </div>
-                <div class="input-field col s3">
-                    <input>
-                </div>
+                    <input id="class-name" type="text" placeholder="Class">
+                    <input id="assignment" type="text" placeholder="Assignment">
+                    <input id="due-date" type="text" placeholder="Due (MM-DD-YYYY)">
+                    <input id="priority-rating type=text" type="text" placeholder="Priority Rating">
             </div>
         </form>
+        <input class="btn waves-effect z-depth-2" id="submit-button" type="submit" class="submit">
     </div>
 
     <!--Full inventory table with nonfunctional info/edit and delete buttons-->
@@ -73,17 +65,18 @@
                 </tr>
             </table>
         </div>
-
-        <div class="div-delete-button-primary">
-            <button class="btn waves-effect waves-light blue darken-3 z-depth-2" id="delete-button" type="submit">Delete</button>
-            <button class="btn waves-effect waves-light blue darken-3 z-depth-2" id="delete-button" type="submit">Delete</button>
-            <button class="btn waves-effect waves-light blue darken-3 z-depth-2" id="delete-button" type="submit">Delete</button>
-        </div>
-
-        <div class="div-infoedit-button-primary">
-            <button class="btn waves-effect waves-light blue darken-3 z-depth-2" id="infoedit-button" type="submit">Info/Edit</button>
-            <button class="btn waves-effect waves-light blue darken-3 z-depth-2" id="infoedit-button" type="submit">Info/Edit</button>
-            <button class="btn waves-effect waves-light blue darken-3 z-depth-2" id="infoedit-button" type="submit">Info/Edit</button>
+        <div>
+            <div class="div-infoedit-button-primary">
+                <button class="btn waves-effect blue darken-3 z-depth-2" id="infoedit-button" type="submit">Info/Edit</button>
+                <button class="btn waves-effect blue darken-3 z-depth-2" id="infoedit-button" type="submit">Info/Edit</button>
+                <button class="btn waves-effect blue darken-3 z-depth-2" id="infoedit-button" type="submit">Info/Edit</button>
+            </div>    
+        
+            <div class="div-delete-button-primary">
+                <button class="btn waves-effect blue darken-3 z-depth-2" id="delete-button" type="submit">Delete</button>
+                <button class="btn waves-effect blue darken-3 z-depth-2" id="delete-button" type="submit">Delete</button>
+                <button class="btn waves-effect blue darken-3 z-depth-2" id="delete-button" type="submit">Delete</button>
+            </div>    
         </div>
     </div>
 </html>
