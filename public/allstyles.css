@@ -33,6 +33,7 @@
        background-color: var(--nav-background-color);
        border-radius: 10px;
        justify-content: center;
+       z-index: 0;
    }
    
    .nav-links{
@@ -109,9 +110,5 @@
 
     form {
         border: 1px solid black;
-
-
-
-
     }
 }
