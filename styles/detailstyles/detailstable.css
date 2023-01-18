@@ -22,27 +22,21 @@ th, td {
     z-index: -1;
 }
 
-.div-moreedit-button-primary {
+.div-moreedit-button {
     display: block;
     width: 17.5% !important;
     position: absolute;
     left: 3%;
     margin-top: -22.5%;
-    z-index: -1;
+    z-index: 5;
+}
+
+#moreedit-button {
+    width: 50%;
+    left: -5%;
 }
 
 #moreedit-button + #moreedit-button {
-    display: block;
-    margin-top: 17px;
-}
-
-a {
-    width: 50%;
-    left: -5%;
-    z-index: 5000 !important;
-}
-
-a + a {
     display: block;
     margin-top: 17px;
 }
