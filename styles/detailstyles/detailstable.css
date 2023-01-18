@@ -1,11 +1,17 @@
+* {
+    color: var(--table-white-color);
+}
+
 #full-inventory-table {
-    margin: -5% auto;
+    margin-top: 10%;
+    position: relative;
+    right: -4.5%;
     z-index: -1;
 }
 
 #inventory-table {
     margin: 10rem auto;
-    width: 60%;
+    width: 85%;
     border: 5px solid;
     display: flex;
 }
@@ -16,23 +22,15 @@ th, td {
     z-index: -5;
 }
 
-.div-infoedit-button-primary {
+.div-moreedit-button-primary {
     display: block;
     width: 17.5% !important;
     position: absolute;
-    left: 11.5%;
+    left: -2%;
     margin-top: -22.5%;
 }
 
-.div-delete-button-primary {
-    display: block;
-    width: 17.5% !important;
-    position: absolute;
-    left: 81%;
-    margin-top: -22.5%;
-}
-
-#infoedit-button + #infoedit-button, #delete-button + #delete-button {
+#moreedit-button + #moreedit-button {
     display: block;
     margin-top: 17px;
 }
