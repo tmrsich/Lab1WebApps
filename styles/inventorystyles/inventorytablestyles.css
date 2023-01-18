@@ -36,3 +36,11 @@ th, td {
     display: block;
     margin-top: 17px;
 }
+
+a {
+    display: block;
+}
+
+a + a {
+    margin-top: 17px;
+}
