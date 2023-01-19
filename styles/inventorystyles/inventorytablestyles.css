@@ -28,19 +28,20 @@ th, td {
     display: block;
     width: 17.5% !important;
     position: absolute;
-    left: 81%;
+    left: 80.5%;
     margin-top: -22.5%;
 }
 
-#infoedit-button + #infoedit-button, #delete-button + #delete-button {
+.infoedit-button {
     display: block;
-    margin-top: 17px;
+    width: 45%;
 }
 
-a {
+.delete-button {
     display: block;
+    width: 45%;
 }
 
-a + a {
+.infoedit-button + .infoedit-button, .delete-button + .delete-button {
     margin-top: 17px;
 }
