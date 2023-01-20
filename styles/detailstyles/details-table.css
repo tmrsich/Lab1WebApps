@@ -6,7 +6,6 @@
     margin-top: 10%;
     position: relative;
     right: -4.5%;
-    z-index: -1;
 }
 
 #inventory-table {
@@ -14,6 +13,7 @@
     width: 85%;
     border: 5px solid;
     display: flex;
+    z-index: -1;
 }
 
 th, td {
@@ -24,19 +24,14 @@ th, td {
 
 .div-moreedit-button {
     display: block;
-    width: 17.5% !important;
+    width: 8.5% !important;
     position: absolute;
     left: 3%;
-    margin-top: -22.5%;
-    z-index: 5;
+    margin-top: -23.5%;
+    z-index: 1;
 }
 
 #moreedit-button {
-    width: 50%;
-    left: -5%;
-}
-
-#moreedit-button + #moreedit-button {
     display: block;
     margin-top: 17px;
 }
