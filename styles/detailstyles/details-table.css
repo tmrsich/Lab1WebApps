@@ -35,13 +35,3 @@ th, td {
     display: block;
     margin-top: 17px;
 }
-
-.modal, .modal-footer {
-    width: 90% !important;
-    background-color: black !important;
-}
-
-.modal-close {
-    position: absolute;
-    left: 90%;
-}
