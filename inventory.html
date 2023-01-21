@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./styles/allstyles.css">
-    <link rel="stylesheet" href="./styles/inventorystyles/inventoryformstyles.css">
-    <link rel="stylesheet" href="./styles/inventorystyles/inventorytablestyles.css">
+    <link rel="stylesheet" href="./styles/inventorystyles/inventoryform-styles.css">
+    <link rel="stylesheet" href="./styles/inventorystyles/inventorytable-styles.css">
 </head>
 
     <!--A fixed navigation bar with icons and links-->
@@ -39,12 +39,14 @@
     <div id="full-inventory-table">
         <div class="table z-depth-5" id="inventory-table">
             <table class="highlight responsive-table">
-                <tr>
-                    <th id="class-name">Class:</th>
-                    <th id="assignment-name">Assignment Name:</th>
-                    <th id="due-date">Due Date:</th>
-                    <th id="priority">Priority (1-10):</th>
-                </tr>
+                <thead>
+                    <tr>
+                        <th id="class-name">Class:</th>
+                        <th id="assignment-name">Assignment Name:</th>
+                        <th id="due-date">Due Date:</th>
+                        <th id="priority">Priority (1-10):</th>
+                    </tr>
+                </thead>
                 <tr>
                     <td>Web Apps</td>
                     <td>Lab 1</td>
