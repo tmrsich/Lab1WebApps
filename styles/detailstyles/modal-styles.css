@@ -6,13 +6,18 @@
 
 .footer-modal   {
     background-color: var(--modal-color);
-    width: 8%;
-    
     width: 100%;
+    margin-bottom: 1%;
 }
 
-.close-modal {
+.save-exit-modal {
+    width: 15%;
+    text-align: center;
+    left: 3%;
+}
+
+.exit-modal {
     width: 10%;
     text-align: center;
-    left: 88%;
+    left: 72%;
 }
