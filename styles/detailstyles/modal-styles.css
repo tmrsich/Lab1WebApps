@@ -1,9 +1,18 @@
-.modal, .modal-footer {
-    width: 90% !important;
-    background-color: black !important;
+.modal {
+    width: 90%;
+    background-color: var(--modal-color);
+    border-radius: 20px;
 }
 
-.modal-close {
-    position: absolute;
-    left: 90%;
+.footer-modal   {
+    background-color: var(--modal-color);
+    width: 8%;
+    
+    width: 100%;
+}
+
+.close-modal {
+    width: 10%;
+    text-align: center;
+    left: 88%;
 }
