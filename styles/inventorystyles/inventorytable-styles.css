@@ -31,6 +31,10 @@ th, td {
     font-size: 75%;
 }
 
+.infoedit-button + .infoedit-button {
+    margin-top: 3.5%;
+}
+
 .delete-button {
     display: inline;
     position: absolute;
