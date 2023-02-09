@@ -1,7 +1,8 @@
 * {
-    --top-margin: -0.4%;
+    --top_margin: -0.4%;
     --infoedit-left_margin: -14%;
     --delete-left_margin: 53.7%;
+    border: 1px solid black;
 }
 
 body {
@@ -31,7 +32,7 @@ th, td {
     font-size: 75%;
 }
 
-.infoedit-button + .infoedit-button {
+.infoedit-button + .infoedit-button, .delete-button + .delete-button {
     margin-top: 3.5%;
 }
 
@@ -39,7 +40,7 @@ th, td {
     display: inline;
     position: absolute;
     width: 7%;
-    margin-top: var(--top-margin);
+    margin-top: var(--top_margin);
     margin-left: var(--delete-left_margin);
     font-size: 75%;
 }
