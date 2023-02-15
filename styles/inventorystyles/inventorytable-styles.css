@@ -1,8 +1,7 @@
 * {
     --top_margin: -0.4%;
-    --infoedit-left_margin: -14%;
-    --delete-left_margin: 53.7%;
-    border: 1px solid black;
+    --infoedit-left_margin: -8.25%;
+    --delete-left_margin: 60.15%;
 }
 
 body {
@@ -24,20 +23,20 @@ th, td {
 }
 
 .infoedit-button {
-    display: inline;
+    display: block;
     position: absolute;
     width: 7%;
-    margin-top: var(--top-margin);
+    margin-top: var(--top_margin);
     margin-left: var(--infoedit-left_margin);
     font-size: 75%;
 }
 
 .infoedit-button + .infoedit-button, .delete-button + .delete-button {
-    margin-top: 3.5%;
+    margin-top: 47.5px;
 }
 
 .delete-button {
-    display: inline;
+    display: block;
     position: absolute;
     width: 7%;
     margin-top: var(--top_margin);
