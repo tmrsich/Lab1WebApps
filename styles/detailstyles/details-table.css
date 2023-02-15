@@ -1,27 +1,27 @@
 * {
     color: var(--table-white-color);
-    --edit_top-margin: -0.35%;
-    --edit_left-margin: -7%;
+    --edit_top-margin: 2.125%;
+    --edit_left-margin: -8.5%;
 }
 
 #full-inventory-table {
     margin-top: 10%;
-    left: 7.5%;
 }
 
-#inventory-table, #inventory-table-2, #inventory-table-3 {
+#inventory-table {
     display: block;
-    margin: 10rem auto;
+    position: relative;
+    left: 7.5%;
     width: 85%;
     border: 5px solid;
-    display: flex;
-    z-index: -1;
+    margin-bottom: 1%;
+    z-index: 1;
 }
 
 th, td {
     text-align: center;
     border-bottom: 1px solid;
-    z-index: -1;
+    z-index: 1;
 }
 
 #moreedit-button {
@@ -29,4 +29,5 @@ th, td {
     position: absolute;
     margin-top: var(--edit_top-margin);
     margin-left: var(--edit_left-margin);
+    z-index: 5;
 }

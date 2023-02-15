@@ -35,6 +35,10 @@
                         <th id="assignment-name">Assignment Name:</th>
                         <th id="assignment-type">Type:</th>
                         <th id="assignment-format">Format:</th>
+                        <th id="due-date">Due Date:</th>
+                        <th id="priority">Priority (1-10):</th>
+                        <th id="interest-level">Interest Level (1-10):</th>
+                        <th id="relevance-level">Relevance Level (1-10):</th>
                     </tr>
                 </thead>
                 <tr>
@@ -46,21 +50,6 @@
                     <td>Lab 1</td>
                     <td>Lab</td>
                     <td>Practical</td>
-                </tr>
-            </table>
-        </div>
-       
-        <div class="table z-depth-5" id="inventory-table-2">
-            <table class="highlight responsive-table">
-                <thead>
-                    <tr>
-                        <th id="due-date">Due Date:</th>
-                        <th id="priority">Priority (1-10):</th>
-                        <th id="interest-level">Interest Level (1-10):</th>
-                        <th id="relevance-level">Relevance Level (1-10):</th>
-                    </tr>
-                </thead>
-                <tr>
                     <td>01/06/2023</td>
                     <td>5</td>
                     <td>8</td>
@@ -69,7 +58,7 @@
             </table>
         </div>
 
-        <div class="table z-depth-5" id="inventory-table-3">
+        <div class="table z-depth-5" id="inventory-table">
             <table class="highlight responsive-table">
                 <thead>
                     <tr>
@@ -94,25 +83,59 @@
                             <label for="class-name-input">Class Name</label>
                         </div>
                     </td>
+                    
                     <td>
                         <div class="input-field">
                             <input id="assignment-name-input" type="text">
                             <label for="assignment-name-input">Assignment Name</label>
                         </div>
                     </td>
+
                     <td>
                         <div class="input-field">
-                            <input id="due-date-input" type="date">
-                            <label for="due-date-input">Due Date</label>
+                            <input id="assignment-type-input" type="text">
+                            <label for="assignment-type-input">Assignment Type</label>
                         </div>
                     </td>
+
                     <td>
                         <div class="input-field">
-                            <input id="priority-rating-input" type="range" min="1" max="10" step="1" style="margin-top: 50px">
-                            <label for="priority-rating-input">Priority</label>
+                            <input id="assignment-format-input" type="text">
+                            <label for="assignment-format-input">Assignment Format</label>
+                        </div>
                     </td>
                 </tr>
+                
+                <tr>
+                    <table style="margin: 0; width: 100%;">
+                        <td>
+                            <div class="input-field">
+                                <input id="due-date-input" type="date">
+                                <label for="due-date-input">Due Date</label>
+                            </div>
+                        </td>
 
+                        <td>
+                            <div class="input-field">
+                                <input id="priority-rating-input" type="range" min="1" max="10" step="1" style="margin-top: 50px">
+                                <label for="priority-rating-input">Priority</label>
+                        </td>
+
+                        <td>
+                            <div class="input-field">
+                                <input id="interest-level-input" type="range" min="1" max="10" step="1" style="margin-top: 50px">
+                                <label for="interest-level-input">Interest Level</label>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="input-field">
+                                <input id="relevance-level-input" type="range" min="1" max="10" step="1" style="margin-top: 50px">
+                                <label for="relevance-level-input">Relevance Level</label>
+                            </div>
+                        </td>
+                    </table>
+                </tr>
                 <!--Addition on the table to add the assignment_type and assignment_format-->
                 <tr>
                     <!--Another table because the td element doesn't extend to the 100% width of the outer table-->
